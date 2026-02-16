@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit-2 Number Theory - Applied Mathematics-B | SBTE Bihar Diploma Semester-II (CSE/AIML)</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f9f9f9; color: #333; }
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { text-align: center; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .topic { background-color: #fff; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .questions { margin-left: 20px; }
+        ol { padding-left: 20px; }
+        .prev-year { background-color: #e8f4fd; padding: 15px; border-left: 5px solid #3498db; margin: 15px 0; }
+        code { background: #eee; padding: 2px 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+<h1>Unit-2: Number Theory<br>Applied Mathematics – B (Course Code: 2400105B)<br>SBTE Bihar Diploma Semester-II (CSE & AIML)</h1>
+
+<div class="topic">
+    <h2>Introduction to the Unit</h2>
+    <p><strong>Number Theory</strong> studies properties of integers and is very important for Computer Science & AIML students because it is the foundation of:</p>
+    <ul>
+        <li>Cryptography (RSA, blockchain, secure apps)</li>
+        <li>Hashing & checksums</li>
+        <li>Random number generation</li>
+        <li>Algorithm optimization & competitive programming</li>
+    </ul>
+    <p><strong>Total CI Hours:</strong> 12 | <strong>Mapped to CO-2</strong> | <strong>Weightage in ETA:</strong> \~14 marks</p>
+    <p><strong>4 Main Topics:</strong></p>
+    <ol>
+        <li>Euclid’s Division Algorithm, GCD & LCM</li>
+        <li>Prime Numbers & Fundamental Theorem of Arithmetic</li>
+        <li>Congruences & Modular Arithmetic</li>
+        <li>Chinese Remainder Theorem (CRT)</li>
+    </ol>
+</div>
+
+<div class="topic">
+    <h2>Topic 1: Euclid’s Division Algorithm, GCD & LCM</h2>
+    <p><strong>Key Concepts:</strong> Division algorithm, Euclidean algorithm, Extended Euclidean (for linear combination ax + by = gcd), LCM formula.</p>
+    <p><strong>Important for:</strong> Fraction reduction, cryptography (modular inverse), programming contests.</p>
+
+    <div class="questions">
+        <h3>15 Practice Questions:</h3>
+        <ol>
+            <li>Find GCD(336, 192) using Euclid’s algorithm.</li>
+            <li>Express GCD(561, 357) as 561x + 357y using extended Euclidean algorithm.</li>
+            <li>Find LCM of 48, 72, and 108.</li>
+            <li>Find integers x, y such that 119x + 85y = 17.</li>
+            <li>Prove that GCD(a, b) = GCD(b, a mod b).</li>
+            <li>Find GCD(1729, 1001) and LCM.</li>
+            <li>Solve 455x + 273y = 91 using extended Euclidean.</li>
+            <li>Reduce fraction 924/660 to lowest terms. Find GCD first.</li>
+            <li>Find GCD(2⁵ × 3³ × 7, 2³ × 3² × 5² × 11) using prime factors.</li>
+            <li>Find x, y such that 693x – 504y = 63.</li>
+            <li>Prove LCM(a, b) × GCD(a, b) = |a × b|.</li>
+            <li>Find GCD(4096, 1458) and express in linear form.</li>
+            <li>Find smallest number divisible by 12, 18, 30 (use LCM).</li>
+            <li>Use Euclidean algorithm to find GCD(987654, 123456).</li>
+            <li>Find x, y for 1001x + 777y = 7.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="topic">
+    <h2>Topic 2: Prime Numbers & Fundamental Theorem of Arithmetic</h2>
+    <p><strong>Key Concepts:</strong> Prime vs composite, Unique factorization, Number of divisors, Highest power of prime in n!.</p>
+
+    <div class="questions">
+        <h3>15 Practice Questions:</h3>
+        <ol>
+            <li>Check if 199 is prime.</li>
+            <li>Prime factorization of 720.</li>
+            <li>State Fundamental Theorem of Arithmetic with example.</li>
+            <li>Find number of positive divisors of 504.</li>
+            <li>List all primes ≤ 60 using Sieve of Eratosthenes.</li>
+            <li>Find highest power of 5 dividing 150!.</li>
+            <li>Prove there are infinitely many primes (short Euclid proof).</li>
+            <li>Find GCD & LCM of 2⁴×3²×5 and 2³×3³×7 using factorization.</li>
+            <li>Why is unique factorization important in RSA cryptography?</li>
+            <li>Check if 10007 is prime.</li>
+            <li>Find number of divisors of 2¹⁰ × 3⁵ × 7².</li>
+            <li>Prime factorization of 99999.</li>
+            <li>Find exponent of 3 in 200!.</li>
+            <li>Show 1 is neither prime nor composite.</li>
+            <li>Find smallest number with exactly 12 divisors.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="topic">
+    <h2>Topic 3: Congruences & Modular Arithmetic</h2>
+    <p><strong>Key Concepts:</strong> a ≡ b (mod m), properties, linear congruence ax ≡ b (mod m), modular inverse.</p>
+
+    <div class="questions">
+        <h3>15 Practice Questions:</h3>
+        <ol>
+            <li>Solve 5x ≡ 3 (mod 11).</li>
+            <li>Find inverse of 9 modulo 28.</li>
+            <li>Solve 12x ≡ 18 (mod 30).</li>
+            <li>Prove if a ≡ b (mod m) then a² ≡ b² (mod m).</li>
+            <li>Find 3¹⁰⁰ mod 7.</li>
+            <li>Solve 7x ≡ 1 (mod 13).</li>
+            <li>Find inverse of 15 modulo 26.</li>
+            <li>Show 45 ≡ 9 (mod 12).</li>
+            <li>If h(k) = k mod 15, find keys that hash to 7.</li>
+            <li>Explain modular arithmetic with clock example (mod 12).</li>
+            <li>Solve 4x ≡ 6 (mod 10).</li>
+            <li>Find 2⁵⁰ mod 17 using modular exponentiation.</li>
+            <li>Find inverse of 23 modulo 37.</li>
+            <li>Solve 9x ≡ 12 (mod 15).</li>
+            <li>Prove cancellation law in modular arithmetic when gcd=1.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="topic">
+    <h2>Topic 4: Chinese Remainder Theorem (CRT)</h2>
+    <p><strong>Key Concepts:</strong> System of congruences with coprime moduli, unique solution mod M.</p>
+
+    <div class="questions">
+        <h3>15 Practice Questions:</h3>
+        <ol>
+            <li>Solve: x ≡ 2 (mod 3), x ≡ 3 (mod 5), x ≡ 1 (mod 7)</li>
+            <li>Solve: x ≡ 4 (mod 5), x ≡ 3 (mod 7), x ≡ 2 (mod 11)</li>
+            <li>Find x: x ≡ 1 (mod 4), x ≡ 5 (mod 9)</li>
+            <li>Solve: x ≡ 7 (mod 11), x ≡ 4 (mod 13)</li>
+            <li>Smallest number which when divided by 5 leaves 2, by 7 leaves 3, by 11 leaves 4.</li>
+            <li>Prove CRT for two coprime moduli.</li>
+            <li>How is CRT used in RSA decryption?</li>
+            <li>Solve: x ≡ 3 (mod 8), x ≡ 5 (mod 13)</li>
+            <li>Find x: x ≡ 2 (mod 7), x ≡ 4 (mod 9), x ≡ 1 (mod 5)</li>
+            <li>Solve system with moduli 4, 6, 15 (check if solvable).</li>
+            <li>Find general solution: x ≡ 0 (mod 5), x ≡ 1 (mod 8), x ≡ 4 (mod 9)</li>
+            <li>Smallest positive x: x ≡ 5 (mod 6), x ≡ 4 (mod 35)</li>
+            <li>Apply CRT to find day when three bells ring together (moduli given).</li>
+            <li>Solve: x ≡ 1 (mod 3), x ≡ 2 (mod 4), x ≡ 3 (mod 5)</li>
+            <li>Explain CRT application in computer science with example.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="topic">
+    <h2>Previous Year SBTE Bihar Questions (Unit-2 Number Theory)<br>(Common / Repeated from 2021–2024 patterns – Math-II / Applied Math-B)</h2>
+    <div class="prev-year">
+        <p><strong>Common Repeated Questions (from PYQ solutions & model papers):</strong></p>
+        <ol>
+            <li>Find GCD(252, 105) and express as linear combination. (2022–2023)</li>
+            <li>Use extended Euclidean algorithm to find x, y: 161x + 46y = 23. (2021 Even)</li>
+            <li>Find LCM of 36, 48, 60. (Multiple years)</li>
+            <li>State Fundamental Theorem of Arithmetic and give example. (2023)</li>
+            <li>Find number of divisors of 720. (2022)</li>
+            <li>Solve 7x ≡ 2 (mod 11). Find inverse of 7 mod 11. (2024 pattern)</li>
+            <li>Find 5¹⁰⁰ mod 13. (Repeated)</li>
+            <li>Solve system: x ≡ 3 (mod 4), x ≡ 2 (mod 5), x ≡ 1 (mod 7). (2021–2023)</li>
+            <li>Find smallest number divisible by 7, 11, 13 with remainders 2, 3, 4 respectively. (CRT – 2022)</li>
+            <li>Prove that if gcd(a,m)=1 then inverse exists. (Theory – multiple years)</li>
+        </ol>
+        <p><strong>Note:</strong> For exact papers → Check sbte.bihar.gov.in (login required), sbteonline.com, way2poly.in, or YouTube channels like H2O STUDY, Polytechnic Club (2021–2024 solutions available).</p>
+    </div>
+</div>
+
+<p style="text-align:center; margin-top:40px; font-size:0.9em;">Prepared for SBTE Bihar Diploma Semester-II – Save & Practice! Best of Luck!</p>
+
+</body>
+</html>
